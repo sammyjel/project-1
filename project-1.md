@@ -26,3 +26,23 @@ I used the command "sudo apt install mysql-server" to install MySQL, and the res
 ![sudo apt instal mysql server](./images/sudo%20mysql%20install.png)
 ![sudo apt install mysql server](./images/sudo%20mysql%20installation.png)
 
+## Mysql secure installation
+
+The output of an interactive script I ran with the command "sudo mysql secure installation" to set security is displayed in the photos below:
+
+![sudo mysql secure install](./images/mysql%20secure%20install1.png)
+![sudo mysql secure install](./images/mysql%20secure%20install2.png)
+
+After adjusting the security settings, I used the command "sudo mysql -p" to test mysql to see if it would let me log in. The output is seen in the image below:
+
+![sudo mysql password](./images/mysql%20pswd%20test.png)
+
+## INSTALLING PHP
+
+## installing php-mysql, a PHP module
+
+With the command "sudo apt install php libapache2-mod-php php-mysql," the three packages were installed, and the output seen in the following image was produced.
+
+![sudo apt install php](./images/sudo%20apt%20install%20php.png)
+
+![sudo php version](./images/php%20version.png)
