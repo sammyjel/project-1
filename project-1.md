@@ -45,4 +45,6 @@ With the command "sudo apt install php libapache2-mod-php php-mysql," the three 
 
 ![sudo apt install php](./images/sudo%20apt%20install%20php.png)
 
+I used the "php -v" command to check the installed version, and the results are displayed in the image below.
+
 ![sudo php version](./images/php%20version.png)
