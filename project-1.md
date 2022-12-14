@@ -1,5 +1,5 @@
 ## Awesome documentation of my first project
 
-`sudo apt update`
+`I run command sudo apt update to update my serverand the image below displays the output generated`
 
-![apache status update](./images/apache status update.png)
+![apache the status update](./images/apache%20status%20update.png)
