@@ -11,3 +11,9 @@
 I run command sudo systemctl status apache2 to check the status of the server
 
 ![ apacche systemctl status](./images/sudo%20systemctl%20status%20.png)
+
+I run curl http://localhost:80 to access apache server locally and the output below generated
+
+![ localhost apache server](./images/curl%20localhost1.png)
+![localhost apache server](./images/curl%20localhost2.png)
+
