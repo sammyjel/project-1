@@ -17,3 +17,7 @@ I run curl http://localhost:80 to access apache server locally and the output be
 ![ localhost apache server](./images/curl%20localhost1.png)
 ![localhost apache server](./images/curl%20localhost2.png)
 
+I entered http://3.17.158.215/:80 into my browser's address bar and hit enter to access the apache http server, which produced the output shown in the following image.
+
+![ apache http server](./images/apache2%20default%20page.png)
+ 
