@@ -77,3 +77,8 @@ To view the new file in the sites-available, I then run the command "sudo ls /et
 
 ![sites available](./images/site%20available%20directory.png)
 
+I run the command "sudo a2ensite lampstackproject" to enable the new virtual host, and I received the output shown below:
+
+![ sudo a2ensite enable](./images/sudo%20a2ensite.png)
+
+
