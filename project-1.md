@@ -48,3 +48,32 @@ With the command "sudo apt install php libapache2-mod-php php-mysql," the three 
 I used the "php -v" command to check the installed version, and the results are displayed in the image below.
 
 ![sudo php version](./images/php%20version.png)
+
+## CREATING A VIRTUAL HOST FOR MY WEBSITE USING APACHE.
+
+*making a directory for my samylampproject website*
+
+I run the command "sudo mkdir /var/www/samylampproject" to create the directory for my samylampproject.
+
+I then assign ownership to the directory by running the command "sudo chown -R $USER:$USER /var/www/samylampproject."
+
+I then create and open a new configuration file in Apache's sites-available directory using the command "sudo vi /etc/apache2/sites-available/samylampproject.conf."
+
+To create a new blank file, I added the following code to the output of the preceding command.
+
+<VirtualHost *:80>
+
+    ServerName samylampproject
+     ServerAlias www.samylampproject
+     ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/samylampproject
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+![virtual file output](./images/vitual%20file%20otuput.png)
+
+To view the new file in the sites-available, I then run the command "sudo ls /etc/sites-available," and the output is displayed in the below-image:
+
+![sites available](./images/site%20available%20directory.png)
+
