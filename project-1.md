@@ -81,4 +81,18 @@ I run the command "sudo a2ensite samylampproject" to enable the new virtual host
 
 ![ sudo a2ensite enable](./images/sudo%20a2ensite.png)
 
+I use the command sudo a2dissite 000-default to disable the default website.
+![sudo a2dissite default](./images/sudo%20a2dissite.png)
 
+I run "sudo apache2ctl configtest" to make sure my setup didn't have any syntax errors, and the output indicated that everything was in order.
+
+![sudo configtest](./images/syntax%20check%20up%20.png)
+
+I run Sudo Echo LAMP to create index.html .
+
+![Sudo echo lamp](./images/hello%20lamp.png)
+
+to enable PHP on the website I change the directory with this stament "DirectoryIndex index.php index.html index.cgi index.pl index.xhtml" 
+
+![sudo vim apache2](./images/php%20enable.png)
+![sudo vim apache2](./images/php2%20version%20display.png)
